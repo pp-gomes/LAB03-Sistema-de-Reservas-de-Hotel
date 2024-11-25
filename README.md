@@ -2,6 +2,10 @@
 
 Este sistema gerencia reservas em um hotel.
 
+## Diagrama de Classes:
+
+![Diagrama de Classes Hotel](https://github.com/user-attachments/assets/08a2bd4d-ab60-4d21-8e3e-6838a9e65d9b)
+
 ## Funcionalidades
 
 - Registrar novas reservas.
@@ -15,6 +19,10 @@ Este sistema gerencia reservas em um hotel.
 
 ## Como executar
 
-1. Compile o arquivo TypeScript:
+1. Compile os arquivos TypeScript:
    ```bash
-   tsc hotel.ts
+   tsc hotel.ts teste-hotel.ts
+2. Execute apenas o arquivo de teste (teste-biblioteca.js) no Node.js:
+    ```bash
+   node teste-hotel.js
+
